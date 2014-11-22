@@ -18,39 +18,39 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '.XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc.XYZ
-tGravityAcc.XYZ
-tBodyAccJerk.XYZ
-tBodyGyro.XYZ
-tBodyGyroJerk.XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc.XYZ
-fBodyAccJerk.XYZ
-fBodyGyro.XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc.XYZ
+- tGravityAcc.XYZ
+- tBodyAccJerk.XYZ
+- tBodyGyro.XYZ
+- tBodyGyroJerk.XYZµ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc.XYZ
+- fBodyAccJerk.XYZ
+- fBodyGyro.XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
 A number of variables were estimated from these signals. In this reduced version
 of the data set, only a selection was retained pertaining to the averages and 
 standard deviations of the variables:
 
-mean(): Mean value
-std(): Standard deviation
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+- mean(): Mean value
+- std(): Standard deviation
+- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 The measurements were taken for 30 different subjects, each performing 6 different activities:
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
 
 ## Processing of the Raw Data
 
@@ -63,85 +63,85 @@ for each averaged value.
 
 ## Variable Names
 The complete list of variables of each feature vector:
-activity
-subject
-tBodyAcc.mean.X
-tBodyAcc.mean.Y
-tBodyAcc.mean.Z
-tBodyAcc.std.X
-tBodyAcc.std.Y
-tBodyAcc.std.Z
-tGravityAcc.mean.X
-tGravityAcc.mean.Y
-tGravityAcc.mean.Z
-tGravityAcc.std.X
-tGravityAcc.std.Y
-tGravityAcc.std.Z
-tBodyAccJerk.mean.X
-tBodyAccJerk.mean.Y
-tBodyAccJerk.mean.Z
-tBodyAccJerk.std.X
-tBodyAccJerk.std.Y
-tBodyAccJerk.std.Z
-tBodyGyro.mean.X
-tBodyGyro.mean.Y
-tBodyGyro.mean.Z
-tBodyGyro.std.X
-tBodyGyro.std.Y
-tBodyGyro.std.Z
-tBodyGyroJerk.mean.X
-tBodyGyroJerk.mean.Y
-tBodyGyroJerk.mean.Z
-tBodyGyroJerk.std.X
-tBodyGyroJerk.std.Y
-tBodyGyroJerk.std.Z
-tBodyAccMag.mean
-tBodyAccMag.std
-tGravityAccMag.mean
-tGravityAccMag.std
-tBodyAccJerkMag.mean
-tBodyAccJerkMag.std
-tBodyGyroMag.mean
-tBodyGyroMag.std
-tBodyGyroJerkMag.mean
-tBodyGyroJerkMag.std
-fBodyAcc.mean.X
-fBodyAcc.mean.Y
-fBodyAcc.mean.Z
-fBodyAcc.std.X
-fBodyAcc.std.Y
-fBodyAcc.std.Z
-fBodyAcc.meanFreq.X
-fBodyAcc.meanFreq.Y
-fBodyAcc.meanFreq.Z
-fBodyAccJerk.mean.X
-fBodyAccJerk.mean.Y
-fBodyAccJerk.mean.Z
-fBodyAccJerk.std.X
-fBodyAccJerk.std.Y
-fBodyAccJerk.std.Z
-fBodyAccJerk.meanFreq.X
-fBodyAccJerk.meanFreq.Y
-fBodyAccJerk.meanFreq.Z
-fBodyGyro.mean.X
-fBodyGyro.mean.Y
-fBodyGyro.mean.Z
-fBodyGyro.std.X
-fBodyGyro.std.Y
-fBodyGyro.std.Z
-fBodyGyro.meanFreq.X
-fBodyGyro.meanFreq.Y
-fBodyGyro.meanFreq.Z
-fBodyAccMag.mean
-fBodyAccMag.std
-fBodyAccMag.meanFreq
-fBodyBodyAccJerkMag.mean
-fBodyBodyAccJerkMag.std
-fBodyBodyAccJerkMag.meanFreq
-fBodyBodyGyroMag.mean
-fBodyBodyGyroMag.std
-fBodyBodyGyroMag.meanFreq
-fBodyBodyGyroJerkMag.mean
-fBodyBodyGyroJerkMag.std
-fBodyBodyGyroJerkMag.meanFreq
+activity  
+subject  
+tBodyAcc.mean.X  
+tBodyAcc.mean.Y  
+tBodyAcc.mean.Z  
+tBodyAcc.std.X  
+tBodyAcc.std.Y  
+tBodyAcc.std.Z  
+tGravityAcc.mean.X  
+tGravityAcc.mean.Y  
+tGravityAcc.mean.Z  
+tGravityAcc.std.X  
+tGravityAcc.std.Y  
+tGravityAcc.std.Z  
+tBodyAccJerk.mean.X  
+tBodyAccJerk.mean.Y  
+tBodyAccJerk.mean.Z  
+tBodyAccJerk.std.X  
+tBodyAccJerk.std.Y  
+tBodyAccJerk.std.Z  
+tBodyGyro.mean.X  
+tBodyGyro.mean.Y  
+tBodyGyro.mean.Z  
+tBodyGyro.std.X  
+tBodyGyro.std.Y  
+tBodyGyro.std.Z  
+tBodyGyroJerk.mean.X  
+tBodyGyroJerk.mean.Y  
+tBodyGyroJerk.mean.Z  
+tBodyGyroJerk.std.X  
+tBodyGyroJerk.std.Y  
+tBodyGyroJerk.std.Z  
+tBodyAccMag.mean  
+tBodyAccMag.std  
+tGravityAccMag.mean  
+tGravityAccMag.std  
+tBodyAccJerkMag.mean  
+tBodyAccJerkMag.std  
+tBodyGyroMag.mean  
+tBodyGyroMag.std  
+tBodyGyroJerkMag.mean  
+tBodyGyroJerkMag.std  
+fBodyAcc.mean.X  
+fBodyAcc.mean.Y  
+fBodyAcc.mean.Z  
+fBodyAcc.std.X  
+fBodyAcc.std.Y  
+fBodyAcc.std.Z  
+fBodyAcc.meanFreq.X  
+fBodyAcc.meanFreq.Y  
+fBodyAcc.meanFreq.Z  
+fBodyAccJerk.mean.X  
+fBodyAccJerk.mean.Y  
+fBodyAccJerk.mean.Z  
+fBodyAccJerk.std.X  
+fBodyAccJerk.std.Y  
+fBodyAccJerk.std.Z  
+fBodyAccJerk.meanFreq.X  
+fBodyAccJerk.meanFreq.Y  
+fBodyAccJerk.meanFreq.Z  
+fBodyGyro.mean.X  
+fBodyGyro.mean.Y  
+fBodyGyro.mean.Z  
+fBodyGyro.std.X  
+fBodyGyro.std.Y  
+fBodyGyro.std.Z  
+fBodyGyro.meanFreq.X  
+fBodyGyro.meanFreq.Y  
+fBodyGyro.meanFreq.Z  
+fBodyAccMag.mean  
+fBodyAccMag.std  
+fBodyAccMag.meanFreq  
+fBodyBodyAccJerkMag.mean  
+fBodyBodyAccJerkMag.std  
+fBodyBodyAccJerkMag.meanFreq  
+fBodyBodyGyroMag.mean  
+fBodyBodyGyroMag.std  
+fBodyBodyGyroMag.meanFreq  
+fBodyBodyGyroJerkMag.mean  
+fBodyBodyGyroJerkMag.std  
+fBodyBodyGyroJerkMag.meanFreq  
 
