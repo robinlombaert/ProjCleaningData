@@ -24,7 +24,7 @@ link.
 The produced table is a tidy data set. It follows the principles of what makes a 
 data set tidy: 
 - One variable per column (including activity and subject)
-- One measurement per row (averaged for each activity and subject)
+- One measurement per row (averaged for each activity and subject)  
 In this solution, a wide data set is produced. I had a preference for this form because 
 it is closer to the form of the raw data, as opposed to a narrow form.
 
