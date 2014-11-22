@@ -62,7 +62,7 @@ The data set provides identifiers for the activities and indices for the subject
 for each averaged value.
 
 ## Variable Names
-The complete list of variables of each feature vector:
+The complete list of variables of each feature vector:  
 activity  
 subject  
 tBodyAcc.mean.X  
